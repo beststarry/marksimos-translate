@@ -3,6 +3,8 @@
 
 
                         //Labels for Login
+                        "LabelSaveSuccess": "自动保存成功",
+
                         "LoginPageLabelWelcome": "欢迎使用MarkSimos !",
                         "LoginPageLabelWelcomeStart": "欢迎使用",
                         "LoginPageLabelSignIn": "登录",
@@ -44,7 +46,7 @@
 
 
                         //Labels for Items on Home page - Top Menu Bar
-                        "HomePageMenuBarLabelsHome": "首页",
+                        "HomePageMenuBarLabelsHome": "游戏简介",
                         "HomePageMenuBarLabelsReport": "报告",
                         "HomePageMenuBarLabelsDecision": "决策",
                         "HomePageMenuBarLabelsScore": "得分",
@@ -57,12 +59,12 @@
                         "HomePageMenuBarLabelsLogout": "退出",
 
                         //Labels for Segment
-                        "HomePageSegmentLabelPriceSensitive": "1 价格敏感型",
-                        "HomePageSegmentLabelPretenders": "2 虚荣型",
-                        "HomePageSegmentLabelModerate": "3 适中型",
-                        "HomePageSegmentLabelGoodLife": "4 享受生活型",
-                        "HomePageSegmentLabelUltimate": "5 追求极致型",
-                        "HomePageSegmentLabelPragmatic": "6 实用型",
+                        "HomePageSegmentLabelPriceSensitive": "价格敏感型",
+                        "HomePageSegmentLabelPretenders": "虚荣型",
+                        "HomePageSegmentLabelModerate": "适中型",
+                        "HomePageSegmentLabelGoodLife": "享受生活型",
+                        "HomePageSegmentLabelUltimate": "追求极致型",
+                        "HomePageSegmentLabelPragmatic": "实用型",
                         "HomePageSegmentLabelAllSegments": "所有消费者类型",
 
 
@@ -72,16 +74,23 @@
                         "HomePageSecondMenuBarLabelsCompanies": "个公司",
                         "HomePageSecondMenuBarLabelsMemberTotal": "现在共",
                         "HomePageSecondMenuBarLabelsMember": "个人员参与公司决策",
+                        "HomePageSecondMenuBarLabelsTimeNote": "请注意您的决策截至时间",
                         "HomePageSecondMenuBarLabelsTimeLeft": "剩余",
+                        "HomePageSecondMenuBarLabelsTimeLeftTime": "剩余时间",
+                        "HomePageSecondMenuBarLabelsTimeHour": "小时",
+                        "HomePageSecondMenuBarLabelsTimeMins": "分",
                         "HomePageSecondMenuBarLabelsTimeLeftForSubmit": "时间做决策",
                         "HomePageSecondMenuBarLabelsMission": "目标：市场份额+净利润",
                         "HomePageSecondMenuBarLabelsMakeDecision": "做决策",
+                        "HomePageSecondMenuBarLabelsViewReport": "查看报告",
                         "HomePageSecondMenuBarCurrentPeriod": "阶段",
 
                         "HomePageSecondMenuBarCompareData": "数据报告对比",
                         "HomePageSecondMenuBarCompareDataBack": "返回数据报告",
 
                         "HomePageSearchBarWatermark": "请输入您要搜索的关键词",
+
+                        "SearchReportName": "报表或图名",
 
                         //Labels for Items on Home page - Three Boxes
                         "HomePageYourCompanyTableLabel": "您的公司",
@@ -146,8 +155,8 @@
                         "ReportCompanyStatusSKUVolumeWeightedDistribution": "加权分销率 (%)",
                         "ReportCompanyStatusSKUShelfSpace": "货架空间 (%)",
                         "ReportCompanyStatusSKUAwareness": "知名度 (%)",
-                        "ReportCompanyStatusSKUAverageNetMarketPrice": "平均净市场价 ($/标准包)",
-                        "ReportCompanyStatusSKUAverageDisplayPrice": "平均陈列价格 ($/标准包)",
+                        "ReportCompanyStatusSKUAverageNetMarketPrice": "平均净市场价 (RMB/标准包)",
+                        "ReportCompanyStatusSKUAverageDisplayPrice": "平均陈列价格 (RMB/标准包)",
                         "ReportCompanyStatusSKUPriceRankingIndex": "价格排序指数",
                         "ReportCompanyStatusSKUTargetConsumerSegment": "目标细分市场",
                         "ReportCompanyStatusSKUTargetConsumerSegmentExpectedValuePerception": "目标细分市场 预计 价值感知",
@@ -185,8 +194,8 @@
                         "ReportCompanyStatusBrandVolumeWeightedDistribution": "加权分销率 (%)",
                         "ReportCompanyStatusBrandShelfSpace": "货架空间 (%)",
                         "ReportCompanyStatusBrandAwareness": "知名度 (%)",
-                        "ReportCompanyStatusBrandAverageNetMarketPrice": "平均净市场价 ($/标准包)",
-                        "ReportCompanyStatusBrandAverageDisplayPrice": "平均陈列价格 ($/标准包)",
+                        "ReportCompanyStatusBrandAverageNetMarketPrice": "平均净市场价 (RMB/标准包)",
+                        "ReportCompanyStatusBrandAverageDisplayPrice": "平均陈列价格 (RMB/标准包)",
                         "ReportCompanyStatusBrandPriceRankingIndex": "价格排序指数",
                         "ReportCompanyStatusBrandValuePerception": "价值感知",
                         "ReportCompanyStatusBrandImagePerception": "形象感知",
@@ -218,8 +227,8 @@
                         "ReportCompanyStatusGlobalVolumeWeightedDistribution": "加权分销率 (%)",
                         "ReportCompanyStatusGlobalShelfSpace": "货架空间 (%)",
                         "ReportCompanyStatusGlobalMindSpaceShare": "思维空间份额（%）",
-                        "ReportCompanyStatusGlobalAverageNetMarketPrice": "平均净市场价 ($/标准包)",
-                        "ReportCompanyStatusGlobalAverageDisplayPrice": "平均陈列价格 ($/标准包)",
+                        "ReportCompanyStatusGlobalAverageNetMarketPrice": "平均净市场价 (RMB/标准包)",
+                        "ReportCompanyStatusGlobalAverageDisplayPrice": "平均陈列价格 (RMB/标准包)",
                         "ReportCompanyStatusGlobalIngredientsQualityIndex": "成分质量指数",
                         "ReportCompanyStatusGlobalAppliedTechnologyIndex": "应用的技术指数",
 
@@ -241,6 +250,16 @@
                         "ReportCompanyStatusGlobalStocksCoverAtWholesalers": "经销商的库存维持期 (周)",
 
                         //Labels for Financial Report - Brand Level
+                        "ReportFinancialReportBrandSKUS":"单品",
+                        "ReportFinancialReportBrandSmall":"小包装",
+                        "ReportFinancialReportBrandNormal":"标准包装",
+                        "ReportFinancialReportBrandLarge":"大包装",
+                        "ReportFinancialReportBrandTotal":"总和",
+                        "ReportFinancialReportAllBrand":"所有品牌",
+                        "ReportFinancialReportBrands":"品牌",
+                        "ReportFinancialReportCompanyTotal":"总和",
+
+
                         "ReportFinancialReportBrandSalesValue": "销售额 (RMB 百万)",
                         "ReportFinancialReportBrandChangeVersusPreviousPeriodSalesValue": "(%) 相对于上阶段的改变",
                         "ReportFinancialReportBrandShareInBrandTotalSalesValue": "占该品牌总销售额的份额 (%)",
@@ -385,10 +404,10 @@
 
                         "ReportProfitabilityEvolutionSKUReturnOnInvestment": "投资回报率 (%)",
 
-                        "ReportProfitabilityEvolutionSKUAverageNetMarketPrice": "平均净市场价 ($/包)",
-                        "ReportProfitabilityEvolutionSKUAverageWholesalesPrice": "平均批发价 ($/包)",
-                        "ReportProfitabilityEvolutionSKUAverageManufacturerPrice": "平均出厂价 ($/包)",
-                        "ReportProfitabilityEvolutionSKUAverageProductionCost": "平均生产成本 ($/包)",
+                        "ReportProfitabilityEvolutionSKUAverageNetMarketPrice": "平均净市场价 (RMB/包)",
+                        "ReportProfitabilityEvolutionSKUAverageWholesalesPrice": "平均批发价 (RMB/包)",
+                        "ReportProfitabilityEvolutionSKUAverageManufacturerPrice": "平均出厂价 (RMB/包)",
+                        "ReportProfitabilityEvolutionSKUAverageProductionCost": "平均生产成本 (RMB/包)",
 
                         "ReportProfitabilityEvolutionSKUMarketSalesValue": "市场销售额 (RMB 百万)",
                         "ReportProfitabilityEvolutionSKUConsumerPricePromotions": "消费者价格促销 (RMB 百万)",
@@ -444,10 +463,10 @@
 
                         "ReportProfitabilityEvolutionBrandReturnOnInvestment": "投资回报率 (%)",
 
-                        "ReportProfitabilityEvolutionBrandAverageNetMarketPrice": "平均净市场价 ($/包)",
-                        "ReportProfitabilityEvolutionBrandAverageWholesalesPrice": "平均批发价 ($/包)",
-                        "ReportProfitabilityEvolutionBrandAverageManufacturerPrice": "平均出厂价 ($/包)",
-                        "ReportProfitabilityEvolutionBrandAverageProductionCost": "平均生产成本 ($/包)",
+                        "ReportProfitabilityEvolutionBrandAverageNetMarketPrice": "平均净市场价 (RMB/包)",
+                        "ReportProfitabilityEvolutionBrandAverageWholesalesPrice": "平均批发价 (RMB/包)",
+                        "ReportProfitabilityEvolutionBrandAverageManufacturerPrice": "平均出厂价 (RMB/包)",
+                        "ReportProfitabilityEvolutionBrandAverageProductionCost": "平均生产成本 (RMB/包)",
 
                         "ReportProfitabilityEvolutionBrandMarketSalesValue": "市场销售额 (RMB 百万)",
                         "ReportProfitabilityEvolutionBrandConsumerPricePromotions": "消费者价格促销 (RMB 百万)",
@@ -498,10 +517,10 @@
 
                         "ReportProfitabilityEvolutionGlobalReturnOnInvestment": "投资回报率 (%)",
 
-                        "ReportProfitabilityEvolutionGlobalAverageNetMarketPrice": "平均净市场价 ($/包)",
-                        "ReportProfitabilityEvolutionGlobalAverageWholesalesPrice": "平均批发价 ($/包)",
-                        "ReportProfitabilityEvolutionGlobalAverageManufacturerPrice": "平均出厂价 ($/包)",
-                        "ReportProfitabilityEvolutionGlobalAverageProductionCost": "平均生产成本 ($/包)",
+                        "ReportProfitabilityEvolutionGlobalAverageNetMarketPrice": "平均净市场价 (RMB/包)",
+                        "ReportProfitabilityEvolutionGlobalAverageWholesalesPrice": "平均批发价 (RMB/包)",
+                        "ReportProfitabilityEvolutionGlobalAverageManufacturerPrice": "平均出厂价 (RMB/包)",
+                        "ReportProfitabilityEvolutionGlobalAverageProductionCost": "平均生产成本 (RMB/包)",
 
                         "ReportProfitabilityEvolutionGlobalMarketSalesValue": "市场销售额 (RMB 百万)",
                         "ReportProfitabilityEvolutionGlobalConsumerPricePromotions": "消费者价格促销 (RMB 百万)",
@@ -588,7 +607,7 @@
                         "ReportPerceptionMapAxisTitleValuePerception": "价值感知",
                         "ReportPerceptionMapAxisTitleImagePerception": "形象感知",
                         "ReportPerceptionMapHoverTooltipMarketShareValue": "市场份额 (销售额 %)",
-                        "ReportPerceptionMapHoverTooltipAverageDisplayPrice": "平均陈列价格 ($/标准包)",
+                        "ReportPerceptionMapHoverTooltipAverageDisplayPrice": "平均陈列价格 (RMB/标准包)",
                         "ReportPerceptionMapHoverTooltipAppliedTechnologyIndex": "应用的技术指数",
                         "ReportPerceptionMapHoverTooltipIngredientsQualityIndex": "成分质量指数",
                         "ReportPerceptionMapHoverTooltipAwareness": "知名度 (%)",
@@ -601,7 +620,7 @@
                         "ReportSegmentDistributionsTableTitleMarketShareVolume": "市场份额 (销量 %)",
                         "ReportSegmentDistributionsTableTitleMarketSalesValue": "市场销售额 (RMB 百万)",
                         "ReportSegmentDistributionsTableTitleMarketSalesVolume": "市场销售量 (百万标准包)",
-                        "ReportSegmentDistributionsTableTitleAverageNetMarketPrice": "平均净市场价 ($/标准包)",
+                        "ReportSegmentDistributionsTableTitleAverageNetMarketPrice": "平均净市场价 (RMB/标准包)",
                         "ReportSegmentDistributionsTableTitleValuePerception": "价值感知",
                         "ReportSegmentDistributionsTableTitleImagePerception": "形象感知",
 
@@ -613,8 +632,8 @@
 
                         //Labels for Market Trends - SKU Level
                         "ReportMarketTrendsSKUTableTitleMarketFigures": "市场数据", //Market Figures
-                        "ReportMarketTrendsSKUMarketFiguresAverageDisplayPrice": "平均陈列价格 ($/标准包)",
-                        "ReportMarketTrendsSKUMarketFiguresAverageNetMarketPrice": "平均净市场价 ($/标准包)",
+                        "ReportMarketTrendsSKUMarketFiguresAverageDisplayPrice": "平均陈列价格 (RMB/标准包)",
+                        "ReportMarketTrendsSKUMarketFiguresAverageNetMarketPrice": "平均净市场价 (RMB/标准包)",
                         "ReportMarketTrendsSKUMarketFiguresBrandAwareness": "品牌知名度 (%)",
                         "ReportMarketTrendsSKUMarketFiguresImagePerception": "形象感知",
                         "ReportMarketTrendsSKUMarketFiguresMarketNetSalesValue": "市场净销售额  (RMB 百万)",
@@ -648,8 +667,8 @@
 
 
                         //Labels for Market Trends - Brand Level
-                        "ReportMarketTrendsBrandMarketFiguresAverageDisplayPrice": "平均陈列价格 ($/标准包)",
-                        "ReportMarketTrendsBrandMarketFiguresAverageNetMarketPrice": "平均净市场价 ($/标准包)",
+                        "ReportMarketTrendsBrandMarketFiguresAverageDisplayPrice": "平均陈列价格 (RMB/标准包)",
+                        "ReportMarketTrendsBrandMarketFiguresAverageNetMarketPrice": "平均净市场价 (RMB/标准包)",
                         "ReportMarketTrendsBrandMarketFiguresBrandAwareness": "品牌知名度 (%)",
                         "ReportMarketTrendsBrandMarketFiguresImagePerception": "形象感知",
                         "ReportMarketTrendsBrandMarketFiguresMarketNetSalesValue": "市场净销售额  (RMB 百万)",
@@ -679,7 +698,7 @@
                         "ReportMarketTrendsBrandSegmentWiseVolumeShareVolumeWeightedDistribution": "加权分销率 (%)",
 
                         //Labels for Market Trends - Global Level
-                        "ReportMarketTrendsGlobalMarketFiguresAverageNetMarketPrice": "平均净市场价 ($/标准包)",
+                        "ReportMarketTrendsGlobalMarketFiguresAverageNetMarketPrice": "平均净市场价 (RMB/标准包)",
                         "ReportMarketTrendsGlobalMarketFiguresMarketNetSalesValue": "市场净销售额 (RMB 百万)",
                         "ReportMarketTrendsGlobalMarketFiguresMarketNetSalesVolume": "市场销量  (百万标准包)",
                         "ReportMarketTrendsGlobalMarketFiguresMarketShareValue": "市场份额 (销售额 %)",
@@ -720,10 +739,26 @@
 
                         //Labels for Items on Decision Page - Second Menu Bar
                         "DecisionPageAlert": "请每轮决策开始后刷新一次页面",
+                        "DecisionPagePreviousPeriod": "Previous Period",
+                        "DecisionPageNext": "Next Period",
                         "DecisionPageSecondMenuBarLabelsTotalAvailableBudget": "所有阶段剩余可用预算",
                         "DecisionPageSecondMenuBarLabelsNormalCapacity": "此阶段剩余正常产能",
                         "DecisionPageSecondMenuBarLabelsOvertimeCapacity": "此阶段剩余额外加班产能",
                         "DecisionPageSecondMenuBarLabelsAdditionalBudget": "申请额外预算",
+
+                        "ToolTipInfo1": "又称“铺货率”，是用覆盖的终端数量除以市场总的终端数量得出的结果。",
+                        "ToolTipInfo2": "是用所覆盖终端的销售额除以市场总销售额得出的结果，反映分销效率。",
+                        "ToolTipInfo3": "用来陈列各种商品的货架从地面到货架顶端的各层陈列货品的空间。",
+                        "ToolTipInfo4": "又称“实际客户成交价”，由于有可能存在促销活动，消费者实际支付价格可能低于陈列价，净市场价是包含促销因素后的消费者实际支付价格。",
+                        "ToolTipInfo5": "反映在市场上所有销售产品中某单品的相对价格高低。指数越高，价格越贵，反之越便宜。",
+                        "ToolTipInfo6": "营销者通过市场调研，依据消费者的需要和欲望、购买行为和购买习惯等方面的差异，把某一产品的市场整体划分为若干消费者群的市场分类。每一个消费者群就是一个细分市场，每一个细分市场都是具有类似需求倾向的消费者构成的群体。",
+                        "ToolTipInfo7": "包括商品生产成本、运输成本等。",
+                        "ToolTipInfo8": "指在商品销售渠道最末端，为促进消费者购买而投入的费用。例如：终端展柜等。",
+                        "ToolTipInfo9": "额外零售终端返点指生产商基于零售价提供给零售商的激励。你可以在25%范围内任意决定激励幅度。额外零售终端返利受实际市场销量影响，返利总额=实际市场销量X返点比例X实际终端零售价。",
+                        "ToolTipInfo10": "包括工厂运营成本（房租、电力等）和均摊到每种单品的生产技术/效率的投资。",
+                        "ToolTipInfo11": "包括（设备）折旧成本。",
+                        "ToolTipInfo12": "它是扣除利息支出和所得税之前的利润，也被称为息税前收益或营业收益。",
+                        "ToolTipInfo13": "市场灵活性和生产效率有关，生产效率越高，市场灵活性越好。如果生产灵活性为5%，产量定为100，那么生产商会根据市场的实际反馈，在95到105之间调整产量。",
 
 
                         //Labels for Items on Decision Page - DecisionTab
@@ -747,7 +782,7 @@
                         "DecisionPageDecisionTabPackagingSizeLarge": "大包装",
 
                         "DecisionPageDecisionTabProductionVolume": "产量(百万件)",
-                        "DecisionPageDecisionTabManufacturerPrice": "出厂价($)",
+                        "DecisionPageDecisionTabManufacturerPrice": "出厂价(RMB)",
                         "DecisionPageDecisionTabRepriceFactoryStock": "重新定价工厂库存?",
                         "DecisionPageDecisionTabRepriceFactoryStockHint": "重新定价后，原工厂剩余库存，按照上面的\"新出厂价\"定价",
                         "DecisionPageDecisionTabConsumerCommunication": "广告投入 (RMB 百万)",
@@ -766,11 +801,17 @@
                         "DecisionPageDecisionNewProductDevelopmentInvestmentInvestmentInProcessingTechnology": "生产技术的投资 (RMB 百万)",
 
                         "DecisionPageDecisionNewProductDevelopmentInvestmentName": "名称",
-                        "DecisionPageDecisionNewProductDevelopmentInvestmentRequiredAmount": "所需投资金额 (RMB 百万)",
-                        "DecisionPageDecisionNewProductDevelopmentInvestmentExtraBudgetRequiredToIncreaseEfficiencyBy25points": "提高 2% / 5%生产效率，预计所需的额外预算",
+                        "DecisionPageDecisionNewProductDevelopmentInvestmentRequiredAmount": "所需投资金额",
+                        
+                        "DecisionPageDecisionNewProductDevelopmentProductionTechnology": "生产技术",
+                        "DecisionPageDecisionNewProductDevelopmentProductionEfficiency": "生产效率",
+                        "DecisionPageDecisionNewProductDevelopmentProductionFlexibility": "生产灵活性",
+                        "DecisionPageDecisionNewProductDevelopmentInvestmentExtraBudgetRequiredToIncreaseEfficiencyBy2points": "提高2%生产效率，预计所需的额外预算：190万RMB",
+                        "DecisionPageDecisionNewProductDevelopmentInvestmentExtraBudgetRequiredToIncreaseEfficiencyBy5points": "提高5%生产效率，预计所需的额外预算：450万RMB",
                         "DecisionPageDecisionNewProductDevelopmentInvestmentExtraBudgetRequiredToIncreaseFlexibilityBy25points": "提高 2% / 5%生产灵活性，预计所需的额外预算",
-                        "DecisionPageDecisionNewProductDevelopmentInvestmentExtraBudgetRequiredToIncreaseTechnologyLevelBy12points": "每提高一个/两个级别的技术水平，预计所需的额外预算",
-                        "DecisionPageDecisionNewProductDevelopmentInvestmentNote": "注意: 在提高生产效率中的预算投入将等量影响生产灵活性 ",
+                        "DecisionPageDecisionNewProductDevelopmentInvestmentExtraBudgetRequiredToIncreaseTechnologyLevelBy1points": "每提高1个级别的技术水平，预计所需的额外预算：110万RMB",
+                        "DecisionPageDecisionNewProductDevelopmentInvestmentExtraBudgetRequiredToIncreaseTechnologyLevelBy2points": "每提高2个级别的技术水平，预计所需的额外预算：190万RMB",
+                        "DecisionPageDecisionNewProductDevelopmentInvestmentNote": "在提高生产效率中的预算投入将等量影响生产灵活性 ",
 
                         "DecisionPageDecisionLockButton": "提交并锁定决策",
                         "DecisionPageDecisionLockButtonInfo": "注意: 锁定决策后您的团队将无法再更改决策",
@@ -806,13 +847,13 @@
                         "DecisionPageFutureProjectionsCalculatorTable1StocksAtFactory": "工厂库存 (mln)",
                         "DecisionPageFutureProjectionsCalculatorTable1StocksAtWholesales": "经销商库存 (mln)",
                         "DecisionPageFutureProjectionsCalculatorTable1StocksAtRetailers": "零售商库存 (mln)",
-                        "DecisionPageFutureProjectionsCalculatorTable1UnitProductionCost": "单位生产成本 ($)",
-                        "DecisionPageFutureProjectionsCalculatorTable1WholesalePrice": "经销商供货价 ($)",
-                        "DecisionPageFutureProjectionsCalculatorTable1RecommendedConsumer": "建议零售价 ($)",
+                        "DecisionPageFutureProjectionsCalculatorTable1UnitProductionCost": "单位生产成本 (RMB)",
+                        "DecisionPageFutureProjectionsCalculatorTable1WholesalePrice": "经销商供货价 (RMB)",
+                        "DecisionPageFutureProjectionsCalculatorTable1RecommendedConsumer": "建议零售价 (RMB)",
 
                         "DecisionPageFutureProjectionsCalculatorTable2MarketSales": "市场销量 （百万件）",
                         "DecisionPageFutureProjectionsCalculatorTable2ShipmentsToRetailers": "零售商到货量 （百万件）",
-                        "DecisionPageFutureProjectionsCalculatorTable2UnitProductionCost": "单位生产成本 ($)",
+                        "DecisionPageFutureProjectionsCalculatorTable2UnitProductionCost": "单位生产成本 (RMB)",
                         "DecisionPageFutureProjectionsCalculatorTable2AverageConsumerPrice": "平均零售终端价格",
                         "DecisionPageFutureProjectionsCalculatorTable2ConsumerCommunication": "广告投入 (RMB 百万)",
                         "DecisionPageFutureProjectionsCalculatorTable2ConsumerPromotions": "促销 (RMB 百万)",
@@ -853,8 +894,8 @@
                         "DecisionPageSpendingDetailsTable1ConsumerCommunication": "广告投入 (RMB 百万)",
                         "DecisionPageSpendingDetailsTable1ConsumerPromotions": "促销 (RMB 百万)",
                         "DecisionPageSpendingDetailsTable1TradeExpenses": "零售终端费用 (RMB 百万)",
-                        "DecisionPageSpendingDetailsTable1EstimatedAdditionalTradeMarginCost": "额外零售终端返利成本 (RMB 百万)",
-                        "DecisionPageSpendingDetailsTable1EstimatedWholesaleBonusCost": "经销商进货让利成本 (RMB 百万)",
+                        "DecisionPageSpendingDetailsTable1EstimatedAdditionalTradeMarginCost": "额外零售终端预计最大返利成本 (RMB 百万)",
+                        "DecisionPageSpendingDetailsTable1EstimatedWholesaleBonusCost": "经销商进货预计最大让利成本 (RMB 百万)",
 
                         "DecisionPageSpendingDetailsTable2Company": "公司",
                         "DecisionPageSpendingDetailsTable2Total": "总额",
@@ -873,6 +914,12 @@
 
                         //Labels for Final Score page
                         "FinalScorePageScore": "最终得分",
+                        "FinalScorePageRank1": "冠军",
+                        "FinalScorePageRank2": "第二名",
+                        "FinalScorePageRank3": "第三名",
+                        "FinalScorePageRank4": "第四名",
+                        "FinalScorePageRank5": "第五名",
+                        "FinalScorePageRank6": "第六名",
                         "FinalScorePageButtonOriginal": "原始数据",
                         "FinalScorePageButtonRescaled": "分数",
                         "FinalScorePageWeightFactor": "权重 / 因素",
